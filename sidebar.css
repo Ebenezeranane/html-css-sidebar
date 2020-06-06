@@ -1,0 +1,44 @@
+.sidebar  {
+	font-size: 20px;
+	display: inline-block;
+	width: 0px;
+	height: 100%;
+	margin: 0px;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	overflow-x: hidden;
+	padding-left: 0px;
+	line-height: 60px;
+	padding-top: 20px;
+
+
+
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding-left: 25px;
+}
+
+.sidebar a:hover{
+	color: grey;
+}
+
+.sidebar .closebtn {
+	position: absolute;
+	top: 0px;
+	right: 25px;
+	padding-left: 20px;
+
+}
+
+#mainn {
+	font-size: 25px;
+	cursor: pointer;
+
+}
+
